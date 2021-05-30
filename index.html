@@ -1,0 +1,434 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <title>Biblio</title>
+</head>
+<body>
+    <div id="bg">
+        <nav>
+            <label class="logo"><img class="img-logo" src="res/500_F_133634743_hsEEWClAFPcWKg3LVyxFSVMPcl8JBbMi.jpg" alt="Lycée Bouebdelli"></label>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Type to search...">
+                <a href="#" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+            <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">E-Booking</a></li>
+           <li><a href="#">About</a></li>
+           </ul>
+        </nav>    
+        <div class= 'container-1'>
+            <div class="container_content">
+            <div class="container_content_inner">
+            <div class="title">
+              <h1>Au Plaisir de Lire</h1>
+            </div>
+            <div class="par">
+            <p>
+                Prendre un livre et s'y plonger, une minute, une heure, une journée ou une vie. A l'ombre d'un arbre séculaire, dans les transports en commun ou sur une plage, la lecture nous accompagne toute notre vie. La Nuit de la lecture, le 18 janvier, nous invitent à lire... 
+            </p>
+            </div>
+            <div class="btns">
+            <button class='btns_more'> See more </button>
+            </div>
+            </div>
+            </div>
+             <div class="container_outer_img">
+             <div class="img-inner">
+             <img src='https://images.unsplash.com/photo-1576093742110-33e1ee3a1187?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9va3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'  alt="" class="container_img"/>
+                   </div>
+                 </div>
+              </div>
+            <div class="overlay"></div>
+        <div class="login-page">
+            <div class="form">
+             <div id="error"></div>
+            <form class="register-form" method="GET" action="/">
+                <input type="text" placeholder="First Name..." requiered>
+                <input type="text" placeholder="Last Name..." requiered>
+                <input type="text" placeholder="E-mail..." requiered>
+                <input type="text" placeholder="Username..." requiered>
+                <input type="password" placeholder="Password..." requiered>
+                <input type="submit" value="Submit">
+                <p class="message">Already have an account? <a href="#">Login</a></p>
+            </form>
+            <form  class="login-form" id="form"  >
+                <input type="text" placeholder="Username" id="name">
+                <input type="password" placeholder="Password" id="password">
+                <input type="submit" value="Submit">
+                <p class="message">Not registered? <a href="#">Register</a></p>
+            </form>
+        </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+        <script>
+            $('.message a').click(function() {
+                $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+            });
+        </script>
+        <div class="div-categories">
+            <div class="filter-container">
+                <div class="category-head">
+                    <ul>
+                        <div class="category-title active" id="all" >
+                            <li>All</li>
+                            </span>
+                        </div>
+                        <div class="category-title" id="culture" >
+                            <li>Culture</li>
+                            </span>
+                        </div>
+                        <div class="category-title" id="politics" >
+                            <li>Politics</li>
+                            </span>
+                        </div>
+                        <div class="category-title" id="finance" >
+                            <li>Finance</li>
+                            </span>
+                        </div>
+                        <div class="category-title" id="business" >
+                            <li>Business</li>
+                            </span>
+                        </div>
+                    <div class="category-title" id="sports" >
+                        <li>Sports</li>
+                        </span>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="posts-collect">
+    <div class="posts-main-container">
+        <!-- single post -->
+        <div class="all business">
+            <div class="post-img">
+                <img src="res/Work-the-System-The-Simple-Mechanics-of-Making-More-and-Working-Less-by-Sam-Carpenter.jpg" alt="">
+                <span class="category-name">Business</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all business">
+            <div class="post-img">
+                <img src="res/Work-the-System-The-Simple-Mechanics-of-Making-More-and-Working-Less-by-Sam-Carpenter.jpg" alt="">
+                <span class="category-name">Business</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all culture">
+            <div class="post-img">
+                <img src="res/qgqvsj.gif" alt="">
+                <span class="category-name">Culture</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all culture">
+            <div class="post-img">
+                <img src="res/qgqvsj.gif" alt="">
+                <span class="category-name">Culture</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all culture">
+            <div class="post-img">
+                <img src="res/qgqvsj.gif" alt="">
+                <span class="category-name">Culture</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all culture">
+            <div class="post-img">
+                <img src="res/qgqvsj.gif" alt="">
+                <span class="category-name">Culture</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all finance">
+            <div class="post-img">
+                <img src="res/9782100710034-X.jpg" alt="">
+                <span class="category-name">Finance</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all finance">
+            <div class="post-img">
+                <img src="res/9782100710034-X.jpg" alt="">
+                <span class="category-name">Finance</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all finance">
+            <div class="post-img">
+                <img src="res/9782100710034-X.jpg" alt="">
+                <span class="category-name">Finance</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+           <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+        <!-- single post -->
+        <div class="all politics">
+            <div class="post-img">
+                <img src="res/Wolf-–-Political-Islam-in-Tunisia-RGB-WEB-1.jpg" alt="">
+                <span class="category-name">Politics</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+         <!-- single post -->
+         <div class="all politics">
+            <div class="post-img">
+                <img src="res/Wolf-–-Political-Islam-in-Tunisia-RGB-WEB-1.jpg" alt="">
+                <span class="category-name">Politics</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+         <!-- single post -->
+         <div class="all politics">
+            <div class="post-img">
+                <img src="res/Wolf-–-Political-Islam-in-Tunisia-RGB-WEB-1.jpg" alt="">
+                <span class="category-name">Politics</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+           <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+         <!-- single post -->
+         <div class="all politics">
+            <div class="post-img">
+                <img src="res/Wolf-–-Political-Islam-in-Tunisia-RGB-WEB-1.jpg" alt="">
+                <span class="category-name">Politics</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+         <!-- single post -->
+         <div class="all sports">
+            <div class="post-img">
+                <img src="res/couv-livre-blanc.png" alt="">
+                <span class="category-name">Sports</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+         <!-- single post -->
+         <div class="all sports">
+            <div class="post-img">
+                <img src="res/couv-livre-blanc.png" alt="">
+                <span class="category-name">Sports</span>
+            </div>
+            <div class="post-content">
+                <div class="post-content-top">
+                    <span><i class="fas fa-calendar"></i>January 01, 2021</span>
+                    <span><i class="fas fa-comment"></i>34</span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt incidunt odit blanditiis eaque porro modi beatae illum quaerat sed. Hic inventore fuga eligendi quis tenetur sit quaerat eos mollitia quas!
+                </p>
+            </div>
+            <input type="submit" value="Read It">
+        </div>
+        <!-- end of single post -->
+    </div>
+</div>
+
+<!-- Js file -->
+<script src="js/main.js"></script>
+<footer class="footer">
+<div class="container-footer">
+    <div class="row-footer">
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Program</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Ordure Status</a></li>
+                <li><a href="#">Payment Options</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="#">heloo</a></li>
+                <li><a href="#">meme</a></li>
+                <li><a href="#">soso</a></li>
+                <li><a href="#">wawawa</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<p class="p-footer">&copy; - Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</footer>
+</body>
+</html>
